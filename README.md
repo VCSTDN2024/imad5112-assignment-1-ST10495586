@@ -16,7 +16,7 @@ Links
 
 • GitHub Repository: [https://github.com/VCSTDN2024/imad5112-assignment-1-ST10495586] 
 
-• YouTube Video: [YouTube Video Link] 
+• YouTube Video: [https://youtu.be/B1agzcHZoFY?si=irVDbS6y35f-Rcwf] 
 
  
 
@@ -106,7 +106,7 @@ Video Demo
 
  
 
-Watch the app in action: [YouTube Video Link] 
+Watch the app in action: [https://youtu.be/B1agzcHZoFY?si=irVDbS6y35f-Rcwf] 
 
  
 

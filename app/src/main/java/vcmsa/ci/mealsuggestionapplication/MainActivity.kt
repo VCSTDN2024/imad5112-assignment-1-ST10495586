@@ -12,6 +12,7 @@ import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
 
+// Declare  UI Elements
     private var Display: TextView? = null
     private var Insert: EditText? = null
 
@@ -23,22 +24,22 @@ class MainActivity : AppCompatActivity() {
 
         Insert = findViewById(R.id.Insert)
         Display = findViewById(R.id.Display)
-
+// Initialize UI Elements
         val BtnGenerate = findViewById<Button>(R.id.BtnGenerate)
         val BtnClear = findViewById<Button>(R.id.BtnClear)
         val BtnExit = findViewById<Button>(R.id.BtnExit)
 
-
+// This Button is to clear any user input
         BtnClear.setOnClickListener {
             Insert?.text?.clear()
             Display?.text = ""
         }
-
+// This button is to exit the application
         BtnExit.setOnClickListener {
             finishAffinity()
             exitProcess(0)
         }
-
+//This button is to Generate meals when user has places an input
         BtnGenerate.setOnClickListener {
             generate()
         }
@@ -66,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-// 
+// This are the meals that display when an a user enters an input
     private fun generate() {
         if (isNotEmpty()) {
             val timeText = Insert?.text.toString().trim()
